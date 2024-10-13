@@ -8,6 +8,7 @@ package minicalc;
  *
  * @author Manel
  */
+import java.util.Scanner;
 public class MiniCalc {
 
     /**
@@ -15,6 +16,8 @@ public class MiniCalc {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        int numero = scan.nextInt();
     }
     
 }
