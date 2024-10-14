@@ -15,9 +15,8 @@ public class MiniCalc {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Scanner scan = new Scanner(System.in);
-        int numero = scan.nextInt();
+        MiniCalcUi CalcFrame = new MiniCalcUi();
+        CalcFrame.setVisible(true);
     }
     
 }
