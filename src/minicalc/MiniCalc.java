@@ -16,6 +16,7 @@ public class MiniCalc {
      */
     public static void main(String[] args) {
         MiniCalcUi CalcFrame = new MiniCalcUi();
+        
         CalcFrame.setVisible(true);
     }
     
